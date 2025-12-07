@@ -1,4 +1,4 @@
-const allowedUsers = ["Dheeraj", "Dhrona", "Krishna", "Harsha", "Abhi", "Target", "Me"];
+const allowedUsers = ["Dheeraj", "Dhrona", "Krishna", "Harsha", "Abhi", "Target", "Me", "Taj"];
 let currentUser = "";
 
 function login() {
@@ -44,3 +44,4 @@ function listenForMessages() {
     chatBox.scrollTop = chatBox.scrollHeight;
   });
 }
+
